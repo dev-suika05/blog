@@ -1,5 +1,11 @@
 @use "./modules/mediaquery" as *;
-
+@use './modules/variable' as *;
 @use './default';
 
+// project ==========
+// base
+@use './project/base/header';
+@use './project/base/main';
+@use './project/base/footer';
+// top 
 @use './project/top';

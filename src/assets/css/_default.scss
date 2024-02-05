@@ -1,1 +1,13 @@
 @use "../css/modules/reset";
+
+html {
+  font-size: 0.625em;
+}
+body {
+  font-family: var(--font-all);
+  color: var(--color-black);
+}
+a {
+  color: var(--color-black);
+  text-decoration: none;
+}
