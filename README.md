@@ -1,2 +1,3 @@
-# site-template
-vite（vanilla）の開発環境
+# blog
+使用CMS：micro-cms
+開発環境：Vite
