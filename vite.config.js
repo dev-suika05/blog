@@ -18,12 +18,14 @@ for (let i = 0; i < htmlFileList.length; i++) {
 const pageData = {
   '/index.html': {
     isHome: true,
+    page: 'TOP',
     title: 'BLOG',
     directory: '.',
   },
   '/detail/index.html': {
     isHome: false,
-    title: 'Detail',
+    page:'POST',
+    title: '詳細',
     directory: '../..'
   },
 };
